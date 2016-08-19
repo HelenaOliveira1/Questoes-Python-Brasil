@@ -6,7 +6,7 @@ salario = float(input("Digite seu salário: "))
 sexo = str(input("Digite seu sexo: "))
 estado = str(input("Digite seu estado civil: "))
 
-while (len(nome) <= 3):
+while (len(nome) <= 3):#len é uma função em python que retorna o número de itens da sequência ou coleção
     print("Nome pequeno demais!")
     nome = input("Digite novamente seu nome: ")
     continue
