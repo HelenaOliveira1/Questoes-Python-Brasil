@@ -1,8 +1,9 @@
 print("Questão 8")
 print("")
 
-quant = int(input("Informe a quantidade de números: "))
+quant = 5
 print("")
+
 i = 0
 soma = 0
 
